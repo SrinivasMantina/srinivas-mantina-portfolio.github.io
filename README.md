@@ -1,4 +1,4 @@
 # Srinivas Mantina
-|---|
-|[portfolio](https://srinivasmantina.github.io/portfolio/)|
-|---|
+
+### Hobby Projects
+* [portfolio](https://srinivasmantina.github.io/portfolio/)

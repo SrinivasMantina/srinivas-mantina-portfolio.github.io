@@ -1,1 +1,1 @@
-[resume](https://srinivasmantina.github.io/portfolio/)
+[portfolio](https://srinivasmantina.github.io/portfolio/)

@@ -1,0 +1,186 @@
+$profile-bg: #006699;
+$text-color: white;
+
+body {
+    background-image: url(../images/bg-body.jpg);
+}
+
+#container {
+    margin: 0 auto;
+    width: 1000px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#profile {
+    background-color: $profile-bg;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    border: solid purple;
+}
+
+.about {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 550px;
+    border: solid;
+}
+
+.about {
+    .inner-photo {
+        float: left;
+        background: url(../images/inner-photo.png) no-repeat;
+        width: 230px;
+        height: 290px;
+        padding: 10px 0 0 10px;
+        border: solid;
+    }
+}
+
+.about {
+    h1 {
+        font-weight: 500;
+        color: $text-color;
+        margin-top: 8px;
+        margin-left: -20px;
+    }
+}
+
+.about {
+    h3 {
+        color: $text-color;
+        margin-top: 5px;
+        font-size: 24px;
+    }
+}
+
+.about {
+    p {
+        margin-top: 15px;
+        color: $text-color;
+    }
+}
+
+.personal-info {
+    float: left;
+    margin-top: 30px;
+    width: 400px;
+    min-height: 230px;
+    margin-left: 5px;
+    background: url(../images/personal-info-sep.png) no-repeat;
+    padding: 20px 0 20px 20px;
+}
+
+.personal-info li {
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.personal-info li label {
+    color: $text-color;
+    float: left;
+    padding: 4px 7px;
+    border-radius: 3px;
+    width: 120px;
+}
+
+.personal-info li span {
+    float: right;
+    color: $text-color;
+    width: 250px;
+    padding-top: 4px;
+}
+
+header {
+    position: relative;
+    overflow: visible;
+    height: 60px;
+}
+
+span.social-text{
+    position: absolute;
+    right: 0px;
+    color: $text-color;
+    padding: 2px 9px;
+    cursor: pointer;
+    top: 10px;
+    border-radius: 70px;
+}
+
+ul.social-icons {
+    opacity: 0;
+    top: -1px;
+    position: relative;
+    transition: all ease 1s;
+    z-index: -1;
+    left: -7x;
+}
+
+.pulse-button {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0 0 0 0 rgb(101, 100, 100);
+    background-color: $profile-bg;
+    cursor: pointer;
+    color: $text-color;
+}
+
+.menu {
+    height: 115px;
+    background-color: #e6f7ff;
+    position: relative;
+    padding-left: 130px;
+    padding-right: 130px;
+    border: solid red;
+}
+
+.menu .tabs {
+    height: 125px;
+    position: absolute;
+    margin-top: -7px;
+    z-index: 100;
+}
+
+.tabs li > a {
+    /*
+    padding-top: 28px;*/
+    width: 118px;
+    height: 118px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    color: #99ddff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tabs .tab-profile.active {
+    background: url(../images/tab-hover.png) no-repeat;
+    background-size: 130px 130px;
+    top: -2px;
+    color: #4dc3ff;
+}
+
+.tabs li.active a {
+    color: $text-color;
+}
+
+.tabs li > a > i {
+    font-size: 45px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#logo {
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+    color: #e6f7ff;
+    display: none;
+}
+
+

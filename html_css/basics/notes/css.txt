@@ -1,0 +1,35 @@
+#     - for id (single element)
+.      - for class (multiple elements)
+
+precedency or specificity
+    1. inline
+    2. id
+    3. class
+    4. type
+
+padding - spacing inside element
+margin  - spacing outside element
+
+css selectors
+    a, b    - multiple element selector
+    a b     - descendant selector
+    a > b  - child selector (immediate children)
+    a + b  - adjacent sibiling selector
+    [a=b] - attribute selector (attribute in a tag)
+    a:b     - pseudoclass selector (hover)
+    a::b    - pseudoelement selector
+
+responsive design - adapt different sized screens
+    viewport
+    media queries
+    flexbox
+    grids
+
+bootstrap has 12 columns
+
+Saas (Syntactically Awesome Stylesheet)
+    Sass is an extension to CSS and compatible with all versions of CSS
+    Sass is a CSS pre-processor
+    Sass reduces repetition of CSS and therefore saves time
+    example - sass <source-sass-file>:<destination-css-file>
+    sass --watch <source-sass-file>:<destination-css-file>

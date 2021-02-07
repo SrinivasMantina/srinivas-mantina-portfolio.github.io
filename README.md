@@ -1,1 +1,3 @@
-[portfolio](https://srinivasmantina.github.io/portfolio/)
+# Srinivas Mantina
+
+> [portfolio](https://srinivasmantina.github.io/portfolio/)

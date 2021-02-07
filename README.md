@@ -1,4 +1,4 @@
 # Srinivas Mantina
 
-### Hobby Projects
-* [portfolio](https://srinivasmantina.github.io/portfolio/)
+### Web Projects
+* [portfolio](https://srinivasmantina.github.io/portfolio/) - Using HTML, CSS, Bootstrap

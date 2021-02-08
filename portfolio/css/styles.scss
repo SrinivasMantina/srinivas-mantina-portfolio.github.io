@@ -17,7 +17,6 @@ body {
     background-position: center bottom;
     background-repeat: repeat-x;
     overflow: hidden;
-    border: solid purple;
 }
 
 .about {
@@ -25,17 +24,13 @@ body {
     margin-top: 30px;
     margin-left: 20px;
     width: 550px;
-    border: solid;
 }
 
 .about {
     .inner-photo {
         float: left;
-        background: url(../images/inner-photo.png) no-repeat;
         width: 230px;
-        height: 290px;
         padding: 10px 0 0 10px;
-        border: solid;
     }
 }
 
@@ -135,7 +130,6 @@ ul.social-icons {
     position: relative;
     padding-left: 130px;
     padding-right: 130px;
-    border: solid red;
 }
 
 .menu .tabs {
@@ -143,11 +137,11 @@ ul.social-icons {
     position: absolute;
     margin-top: -7px;
     z-index: 100;
+    margin-left: 40px;
 }
 
 .tabs li > a {
-    /*
-    padding-top: 28px;*/
+    padding-top: 18px;
     width: 118px;
     height: 118px;
     display: inline-block;
@@ -156,11 +150,12 @@ ul.social-icons {
     color: #99ddff;
     text-align: center;
     text-transform: uppercase;
+    margin-right: 60px;
 }
 
 .tabs .tab-profile.active {
     background: url(../images/tab-hover.png) no-repeat;
-    background-size: 130px 130px;
+    background-size: 130px 135px;
     top: -2px;
     color: #4dc3ff;
 }
@@ -183,4 +178,19 @@ ul.social-icons {
     display: none;
 }
 
+a.tab-profile.active i {
+    animation: bounce 2s infinite;
+}
 
+@keyframes bounce {
+    40% {
+        transform: translateY(-0px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.tabs li {
+    display: inline;
+}
